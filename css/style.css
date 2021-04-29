@@ -170,7 +170,7 @@
 /* SEZIONE LISTINO */
 .listino-prezzi{
     background-color: burlywood;
-    height: 1100px;
+    height: 1300px;
     width: 100%;
     position: relative;
 }
@@ -179,7 +179,7 @@
 .content-listino{
     background-color: rgb(76, 221, 214);
     width: 60%;
-    height: 1000px;   
+    height: 1250px;   
 }
 
 .listino-prezzi > .content-listino{
@@ -192,7 +192,7 @@
 .contenitor-tit-listino{
     background-color: rgb(0, 153, 145);
     width: 100%;
-    height: 200px;;
+    height: 150px;;
 
 }
 .ttl-listino h2{
@@ -212,23 +212,20 @@
 
 /* sezione centrale/colonne */
 .colonna{
-   background-color: yellowgreen;
-    
+    background-color: yellowgreen;
     width: 30%;
-    height: 680px;  
-    border: 1px solid grey;  
+    height: 750px;  
+    border: 1px solid grey;     
 }
 
 .float-left {
     float:left;
 }
 
-
 .cln-centrale{
     margin-left: 5%;
     margin-right: 5%;    
 }
-
 
 .utente{
     background-color: violet;
@@ -240,7 +237,9 @@
 }
 
 .text-colonna{
-    padding-left: 17px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
 .text-colonna h3{    
@@ -252,6 +251,7 @@
     color: grey;
 }
 
+
 .dettagli-utente p{
     margin-top: 10px;
 }
@@ -261,12 +261,10 @@
     margin-bottom: 20px;
     color: white;
     background-color: #0061ff;    
-    width: 185px;
+    width: 100%;
     height: 40px;
     text-align: center;    
-    line-height: 40px;
-    
-    
+    line-height: 40px;  
 }
 
 
@@ -289,3 +287,53 @@
 }
 
 
+/* blocco orizzontale */
+.blocco-orizz-info-prezzi{
+    background-color: indigo;
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid grey;
+}
+
+.blocco-sx{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    width: 68%;
+    float: left;
+    line-height: 40px;
+}
+
+.blocco-sx h3{
+    font-size: 25px;    
+}
+
+.blocco-sx h5{
+    font-size: 16px;    
+}
+
+.blocco-sx{
+    font-size: 13px;
+}
+
+.blocco-dx a{
+    text-decoration: none;
+}
+
+
+
+.btn-ufficio-sell{
+    margin-top: 15px;
+    float: right;  
+    color: white;
+    background-color: #0061ff;    
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;    
+    line-height: 40px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
