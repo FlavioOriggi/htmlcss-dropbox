@@ -90,6 +90,7 @@
     height: 850px;    
 }
 
+/* sezione jumbotron-content */
 .jumbotron-content{
     background-color: royalblue;
     width: 70%;
@@ -105,8 +106,10 @@
 }
 
 .titolo-jumbotron h1{
+    margin-top: 20px;
     font-size: 85px;
-    letter-spacing:-11px
+    letter-spacing:-11px;
+    margin-bottom: 30px;
 }
 
 .sottotitolo-jumbotron{
@@ -115,6 +118,8 @@
     background-color: saddlebrown;
     font-size: 16px;
     line-height: 26px;
+    float: left;
+
 }
 
 .sottotitolo-jumbotron a{
@@ -135,8 +140,13 @@
     margin-bottom: 10px;
 }
 
-<!-- /* sezione immagine*/ -->
+/* sezione immagine jumbotron */
 .img-jumbotron{
+    width: 70%;
+    height: 100%;
+    background-color:tomato;
+    float: right;
+    padding-left: 70px;
 
 }
 
