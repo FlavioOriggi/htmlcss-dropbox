@@ -174,7 +174,7 @@
 
 .content-listino{
     background-color: rgb(76, 221, 214);
-    width: 50%;
+    width: 60%;
     height: 1000px;;
 
 }
@@ -215,6 +215,22 @@
     height: 680px;  
     border: 1px solid grey;  
 }
+
+.cln-sx{
+    float:left;
+}
+
+
+.cln-centrale{
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+.cln.dx{
+    float: left;
+}
+
 
 .utente{
     background-color: violet;
