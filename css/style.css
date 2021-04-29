@@ -5,10 +5,9 @@
     font-family: SharpGroteskWide,Open Sans,sans-serif;
 }
 
-#main-header{
-    /*  */
-}
+/* INIZIO SEZIONE HEADER */
 
+/* struttura nav */
 .nav{    
     background-color: red;
     width: 100%;
@@ -45,7 +44,7 @@
 }
 
 
-
+/* struttura header */
 #main-header nav li{
     display: inline-block;    
 }
@@ -164,11 +163,28 @@
 
 
 /* SEZIONE LISTINO */
-
-#listino{
+.listino-prezzi{
     background-color: burlywood;
-    height: 800px;
+    height: 1100px;
     width: 100%;
+    position: relative;
 }
+
+
+.content-listino{
+    background-color: rgb(19, 29, 59);
+    width: 55%;
+    height: 1000px;;
+
+}
+
+.listino-prezzi > .content-listino{
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+
 
 
