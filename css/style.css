@@ -175,8 +175,7 @@
 .content-listino{
     background-color: rgb(76, 221, 214);
     width: 60%;
-    height: 1000px;;
-
+    height: 1000px;   
 }
 
 .listino-prezzi > .content-listino{
@@ -210,7 +209,7 @@
 /* sezione centrale/colonne */
 .colonna{
    background-color: yellowgreen;
-    position: relative;
+    
     width: 30%;
     height: 680px;  
     border: 1px solid grey;  
