@@ -45,6 +45,11 @@
 
 
 /* struttura header */
+#main-header{
+    position: relative;
+    z-index: 5;
+}
+
 #main-header nav li{
     display: inline-block;    
 }
@@ -158,8 +163,7 @@
     height: 400px;
     background-color:tomato;
     float: right;
-    padding-left: 70px;
-    
+    padding-left: 70px;     
 }
 
 
@@ -215,19 +219,14 @@
     border: 1px solid grey;  
 }
 
-.cln-sx{
+.float-left {
     float:left;
 }
 
 
 .cln-centrale{
-    margin-left: 2%;
-    margin-right: 2%;
-    float: left;
-}
-
-.cln.dx{
-    float: left;
+    margin-left: 5%;
+    margin-right: 5%;    
 }
 
 
