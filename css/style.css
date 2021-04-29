@@ -2,22 +2,143 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: SharpGroteskWide,Open Sans,sans-serif;
 }
 
 .nav{    
     background-color: red;
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 100px;    
     line-height: 100px;
-     
-    
-    
+    position: absolute; 
+    z-index: 2;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.sezione-sx{
+    float: left;
+}
+
+.sezione-dx{
+    float: right;
+}
+
+.nav ul{
+    display: inline-block;
+}
+
+.nav a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
 
+
+#main-header nav li{
+    display: inline-block;    
+}
+
+#main-header nav li a{
+    text-decoration: none;
+    display: inline-block;  
+    box-sizing: border-box;
+}
+
+#logo-header{
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.menu-header{
+    display: inline-block; 
+    padding-left: 20px ;
+    padding-right: 20px; 
+}
+
+/*  bottone inizia */
+.btn-inizia{    
+    float: right;    
+    margin-top: 30px;
+    color: white;
+    background-color: #0061ff;    
+    width: 70px;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px;
+    margin-right: 20px;
+
+}
+
+#btn-testo-white{
+    color: white;
+
+}
+
+
+/* SEZIONE JUMBOTOTRON */
 .jumbotron{
     background-color: #b4d0e7;
     width: 100%;
-    height: 80vh;
+    height: 850px;    
 }
+
+.jumbotron-content{
+    background-color: royalblue;
+    width: 70%;
+    height: 750px;
+    position: relative;
+}
+
+.jumbotron > .jumbotron-content{
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titolo-jumbotron h1{
+    font-size: 85px;
+    letter-spacing:-11px
+}
+
+.sottotitolo-jumbotron{
+    width: 30%;
+    height: 400px;
+    background-color: saddlebrown;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sottotitolo-jumbotron a{
+    text-decoration: none;
+}
+
+.sottotitolo-jumbotron p{
+    margin-bottom: 30px;
+}
+
+.btn-prova-gratuita{   
+    color: white;
+    background-color: #0061ff;    
+    width: 250px;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+<!-- /* sezione immagine*/ -->
+.img-jumbotron{
+
+}
+
+
+
