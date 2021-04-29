@@ -189,7 +189,7 @@
 .contenitor-tit-listino{
     background-color: rgb(0, 153, 145);
     width: 100%;
-    height: 150px;;
+    height: 200px;;
 
 }
 .ttl-listino h2{
@@ -212,19 +212,55 @@
    background-color: yellowgreen;
     position: relative;
     width: 30%;
-    height: 550px;    
+    height: 680px;  
+    border: 1px solid grey;  
 }
 
 .utente{
     background-color: violet;
-    border-top: 1px solid black;
+    border-bottom: 1px solid grey;
     text-align: center;
     height: 50px;
-    line-height: 50px;    
+    line-height: 50px;
+    margin-bottom: 10px;    
 }
 
 .text-colonna{
     padding-left: 17px;
+}
+
+.text-colonna h3{    
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.text-cln-grigio {
+    color: grey;
+}
+
+.dettagli-utente p{
+    margin-top: 10px;
+}
+
+.btn-prova-30gg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0061ff;    
+    width: 185px;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px;
+    
+    
+}
+
+
+.linea-grigia{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: grey;
+
 }
 
 .lista-punti-salienti li{
