@@ -208,7 +208,34 @@
 }
 
 /* sezione centrale/colonne */
+.colonna{
+   background-color: yellowgreen;
+    position: relative;
+    width: 30%;
+    height: 550px;    
+}
 
+.utente{
+    background-color: violet;
+    border-top: 1px solid black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;    
+}
 
+.text-colonna{
+    padding-left: 17px;
+}
+
+.lista-punti-salienti li{
+    line-height: 25px; 
+    list-style-type: none;
+}
+
+.check{
+    margin-right: 10px;
+    color: #0162ff
+
+}
 
 
