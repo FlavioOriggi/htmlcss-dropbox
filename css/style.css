@@ -159,6 +159,7 @@
     background-color:tomato;
     float: right;
     padding-left: 70px;
+    
 }
 
 
@@ -172,8 +173,8 @@
 
 
 .content-listino{
-    background-color: rgb(19, 29, 59);
-    width: 55%;
+    background-color: rgb(76, 221, 214);
+    width: 50%;
     height: 1000px;;
 
 }
@@ -183,7 +184,28 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
 
+.contenitor-tit-listino{
+    background-color: rgb(0, 153, 145);
+    width: 100%;
+    height: 150px;;
+
+}
+.ttl-listino h2{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.btn-fatturazione{
+    margin-top: 30px;
+    font-size: 16px;
+    
+}
+
+.btn-margin-left{
+    margin-right: 25px;
+}
 
 
 
