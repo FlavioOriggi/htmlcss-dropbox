@@ -75,20 +75,17 @@
 /*  bottone inizia */
 .btn-inizia{    
     float: right;    
-    margin-top: 30px;
-    color: white;
+    margin-top: 30px;    
     background-color: #0061ff;    
     width: 70px;
     height: 40px;
     text-align: center;    
     line-height: 40px;
     margin-right: 20px;
-
 }
 
 #btn-testo-white{
     color: white;
-
 }
 
 
@@ -214,7 +211,7 @@
 .colonna{
     background-color: yellowgreen;
     width: 30%;
-    height: 750px;  
+    /* height: 750px;   */
     border: 1px solid grey;     
 }
 
@@ -322,8 +319,6 @@
     text-decoration: none;
 }
 
-
-
 .btn-ufficio-sell{
     margin-top: 15px;
     float: right;  
@@ -336,4 +331,78 @@
     line-height: 40px;
     margin-right: 20px;
     vertical-align: middle;
+}
+
+/* SEZIONE PARTNER DROPBOX */
+
+.partner-dropbox{
+    background-color: rgb(224, 144, 40);
+    height: 650px;
+    width: 100%;
+    position: relative;
+
+}
+
+/* contenuto della sezione */
+.content-dropbox{
+    background-color: blue;
+    width: 60%;
+    height: 500px;
+
+}
+
+.partner-dropbox > .content-dropbox{
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* .blocco-sx */
+.blocco-img-partner-dropbox{
+    background-color: rgb(132, 0, 255);
+    width: 52%;
+    /* height: 500px; */
+    float: left;
+}
+
+
+/* blocco dx */
+.testo-partner-dropbox{
+    width: 48%;
+    padding-left: 85px;
+    padding-top: 100px;
+    float: right;
+    
+}
+
+.content-testo-partner-dropbox{
+    background-color: cadetblue;
+    width: 75%;    
+}
+
+.content-testo-partner-dropbox h4{
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 22px;
+}
+
+.content-testo-partner-dropbox span{
+    line-height: 26px;
+    
+}
+
+.btn-trova-partner{  
+    background-color: white;    
+    border: 1px solid black;  
+    width: 150px;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px;
+    margin-top: 25px;   
+}
+
+#btn-testo-black{
+    color: black;
+    text-decoration: none;    
 }
