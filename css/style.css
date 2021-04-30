@@ -595,3 +595,74 @@
     line-height: 38px;
     margin-bottom: 50px;
 }
+
+
+/* SEZIONE FOOTER */
+footer{
+    background-color: #144972;
+    height: 645px;  
+    width: 100%;
+    position: relative;    
+}
+
+.footer-contenitor{
+    background-color: rgb(46, 77, 15);
+    padding: 150px 0;
+    width: 60%;
+}
+
+footer > .footer-contenitor{
+    position: absolute;             
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.list-content{
+    background-color: rgb(228, 228, 135);
+    height: 270px;
+    width: 100%;
+}
+
+.lista-dropbox{
+    width: 20%;
+        
+    float: left;
+}
+
+.lista-dropbox h4{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;   
+}
+
+.lista-dropbox ul{
+    list-style-type: none;
+}
+
+.lista-dropbox li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.lista-dropbox a:hover { 
+    text-decoration: underline; 
+    color: #fdfdfd;
+} 
+
+
+
+
+/* sotto la linea */
+.lingua{
+    width: 70px;
+    padding-top: 55px;
+    border-top: 1px solid white;      
+}
+
+
