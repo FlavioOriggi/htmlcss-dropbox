@@ -533,6 +533,7 @@
     background-color: rgb(180, 246, 246);
 }
 
+/* SEZIONE INVITO NELLA TUA AZIENDA */
 .contenitor-invito{
     background-color: orangered;
     padding-left: 20%;
@@ -565,5 +566,32 @@
     text-align: center;    
     line-height: 40px;
     margin-bottom: 10px;
+}
 
+/* SEZIONE FAQ */
+.section-faq{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 150px;
+    background-color: lightgreen;
+        
+
+}
+
+.contenitor-faq{    
+    width: 100%; 
+    background-color: #f17a7a;
+    height: 800px;  
+}
+
+.contenitor-faq hr{
+    color: grey;
+}
+
+
+.title-faq h3{
+    color: black;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
 }
