@@ -463,11 +463,6 @@
 }
 
 /* BLOCCO CUSTOMERS */
-.customers{
-    width: 100%;
-    height: 1000px;
-    background-color: rgb(41, 63, 19);    
-}
 
 /* sezione header-customers */
 .header-customers{
@@ -477,14 +472,6 @@
     padding-left: 20%;
 }
 
-
-/* .blocco-hdr-cstmrs{
-    background-color: rgb(255, 255, 255);
-    width: 60%; 
-          
-} */
-
-
 .propieta-testo-hdr-ctsmrs{
     width: 60%;
 }
@@ -493,4 +480,90 @@
     font-size: 40px;
     line-height: 46px;
     margin-bottom: 30px;
+}
+
+/* sezione blocchi loghi customers */
+.blocchi-loghi-customers{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(41, 63, 19);   
+}
+
+.blocco{
+    background-color: rgb(70, 18, 29);
+    height: 600px;    
+    width: calc(100% / 3); 
+    float: left;   
+}
+
+.content-loghi{
+    background-color: #a2d39b;
+
+    
+    height: 300px;    
+    width: calc(100% / 2); 
+    float: left; 
+
+}
+
+#content-di-testo{
+    background-color: #f5f5f5;
+}
+
+
+
+#designit{
+    background-color: #a2d39b;
+}
+
+#asu{
+    background-color: #1f020d;
+}
+
+.uf{
+    background-color: #0093ce;
+}
+
+.tppos{
+    background-color: #ff1c1c;
+
+}
+
+.descrizione-customers{
+    background-color: rgb(180, 246, 246);
+}
+
+.contenitor-invito{
+    background-color: orangered;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 120px;
+    padding-bottom: 200px;    
+}
+
+.content-invito{
+    width: 55%;
+    float: left;
+}
+
+
+.content-invito h2{
+    color: #61082b;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.blocco-dx{
+    float: right;
+}
+
+.btn-invito{
+    
+    background-color: #ffffff;    
+    width: 250px;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px;
+    margin-bottom: 10px;
+
 }
