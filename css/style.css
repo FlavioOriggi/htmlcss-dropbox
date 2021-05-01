@@ -167,7 +167,7 @@
 /* SEZIONE LISTINO */
 .listino-prezzi{
     background-color: burlywood;
-    height: 1300px;
+    height: 1500px;
     width: 100%;
     position: relative;
 }
@@ -175,25 +175,25 @@
 
 .content-listino{
     background-color: rgb(76, 221, 214);
-    width: 60%;
-    height: 1250px;   
+    width: 60%;    
 }
 
 .listino-prezzi > .content-listino{
     position: absolute;        
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-55%);
 }
 
+/* sezione titolo listino */
 .contenitor-tit-listino{
     background-color: rgb(0, 153, 145);
-    width: 100%;
-    height: 150px;;
-
+    width: 100%; 
+    padding-bottom: 30px; 
 }
+
 .ttl-listino h2{
-    margin-top: 100px;
+    
     font-size: 40px;
 }
 
@@ -210,8 +210,7 @@
 /* sezione centrale/colonne */
 .colonna{
     background-color: yellowgreen;
-    width: 30%;
-    /* height: 750px;   */
+    width: 30%;    
     border: 1px solid grey;     
 }
 
@@ -253,6 +252,49 @@
     margin-top: 10px;
 }
 
+/* modifiche spaziatura colonna sx */
+.cln-utnt-sx > .dettagli-utente{
+    padding-top: 20px;
+}
+
+.btn-prova-30gg-cln-sx{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0061ff;    
+    width: 100%;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px; 
+}
+
+.pddng-cln-sx{
+    padding-bottom: 95px;
+}
+
+
+/* modifiche spaziatura colonna cc */
+.btn-prova-30gg-cln-cc{
+    margin-top: 46px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0061ff;    
+    width: 100%;
+    height: 40px;
+    text-align: center;    
+    line-height: 40px; 
+}
+
+.pddng-cln-cc{
+    padding-bottom: 20px;
+}
+
+/* modifiche spaziatura colonna dx */
+.pddng-cln-dx{
+    padding-bottom: 60px;
+}
+
+
 .btn-prova-30gg{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -272,9 +314,16 @@
 
 }
 
+.lista-punti-salienti p{
+    padding-bottom: 10px;
+    
+}
+
 .lista-punti-salienti li{
+    margin-top: 10px;
     line-height: 25px; 
     list-style-type: none;
+    font-size: 14px;
 }
 
 .check{
@@ -284,13 +333,15 @@
 }
 
 
-/* blocco orizzontale */
-.blocco-orizz-info-prezzi{
+/* blocco orizzontale contatta ufficio vendite */
+.blocco-orizz-ufficio-vendite{
+    
     background-color: indigo;
     height: 220px;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
+    width: 60%;
+    position: absolute;    
+    bottom: 0;
+    left: 20%;
     border: 1px solid grey;
 }
 
@@ -335,8 +386,7 @@
 
 /* SEZIONE PARTNER DROPBOX */
 
-.partner-dropbox{
-    
+.partner-dropbox{    
     background-color: rgb(224, 144, 40);
     height: 650px;
     width: 100%;
@@ -348,14 +398,14 @@
 .content-dropbox{
     background-color: blue;
     width: 60%;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .partner-dropbox > .content-dropbox{
     position: absolute;        
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-35%);
 }
 
 /* .blocco-sx */
@@ -411,14 +461,14 @@
 .operazioni{
     background-color: chartreuse;
     width: 100%;
-    height: 1600px;    
+    height: 1500px;    
     position: relative;
 }
 
 .content-operazioni{
     background-color: rgb(55, 55, 117);
     width: 60%;
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 
 .operazioni > .content-operazioni{
