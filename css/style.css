@@ -151,7 +151,6 @@
     font-size: 60px;
     color: black;
     text-decoration: none;
-
 }
 
 /* sezione immagine jumbotron */
@@ -167,14 +166,14 @@
 /* SEZIONE LISTINO */
 .listino-prezzi{
     background-color: burlywood;
-    height: 1500px;
+    height: 1550px;
     width: 100%;
     position: relative;
 }
 
 
 .content-listino{
-    background-color: rgb(76, 221, 214);
+    /* background-color: rgb(76, 221, 214); */
     width: 60%;    
 }
 
@@ -187,20 +186,18 @@
 
 /* sezione titolo listino */
 .contenitor-tit-listino{
-    background-color: rgb(0, 153, 145);
+    /* background-color: rgb(0, 153, 145); */
     width: 100%; 
     padding-bottom: 30px; 
 }
 
-.ttl-listino h2{
-    
+.ttl-listino h2{    
     font-size: 40px;
 }
 
 .btn-fatturazione{
     margin-top: 30px;
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
 
 .btn-margin-left{
@@ -209,9 +206,12 @@
 
 /* sezione centrale/colonne */
 .colonna{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 30%;    
-    border: 1px solid grey;     
+}
+
+.cln-border-grey{
+    border: 1px solid grey; 
 }
 
 .float-left {
@@ -224,12 +224,17 @@
 }
 
 .utente{
-    background-color: violet;
+    /* background-color: violet; */
     border-bottom: 1px solid grey;
     text-align: center;
     height: 50px;
-    line-height: 50px;
-    margin-bottom: 10px;    
+    line-height: 50px;  
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.utente span{
+    padding-right: 5px;
 }
 
 .text-colonna{
@@ -321,8 +326,7 @@
 .lista-punti-salienti ul{
     margin-left: 0;
     padding-left: 1em;
-    text-indent: -1em;
-    
+    text-indent: -1em;    
 }
 
 .lista-punti-salienti li{    
@@ -339,19 +343,16 @@
 
 /* blocco orizzontale contatta ufficio vendite */
 .blocco-orizz-ufficio-vendite{    
-    background-color: indigo;
-    height: 220px;
+    /* background-color: indigo;     */
     width: 60%;
     position: absolute;    
     bottom: 0;
     left: 20%;
-    border: 1px solid grey;
+    border: 1px solid grey;    
 }
 
 .blocco-sx{
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px; 
+    padding: 30px 30px;
     width: 68%;
     float: left;
     line-height: 40px;
@@ -367,6 +368,10 @@
 
 .blocco-sx{
     font-size: 13px;
+}
+
+.blocco-dx{
+    padding-top: 15px;   
 }
 
 .blocco-dx a{
@@ -411,9 +416,9 @@
     transform: translate(-50%,-35%);
 }
 
-/* .blocco-sx */
+/* .blocco sx */
 .blocco-img-partner-dropbox{
-    background-color: rgb(132, 0, 255);
+    background-color: rgb(238, 46, 46);
     width: 52%;
     height: 500px;
     float: left;
@@ -470,7 +475,7 @@
 }
 
 .content-operazioni{
-    background-color: rgb(55, 55, 117);
+    /* background-color: rgb(55, 55, 117); */
     width: 60%;    
 }
 
@@ -515,11 +520,11 @@
     color: black;
 }
 
+
 /* BLOCCO CUSTOMERS */
 
 /* sezione header-customers */
 .header-customers{
-    /* background-color: rgb(218, 171, 154); */
     width: 100%;    
     padding-bottom: 50px;
     padding-left: 20%;
@@ -601,18 +606,18 @@
     padding-bottom: 200px;    
 }
 
-.content-invito{
+.text-invito{
     width: 55%;
     float: left;
 }
 
-.content-invito h2{
+.text-invito h2{
     color: #61082b;
     font-size: 40px;
     line-height: 46px;
 }
 
-.blocco-dx{
+.blocco-btn-invito{
     float: right;
     margin-top: 5px;
 }
