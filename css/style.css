@@ -71,9 +71,46 @@
 .menu-header{
     display: inline-block; 
     padding-left: 20px ;
-    padding-right: 20px; 
+    padding-right: 20px;     
 }
 
+/* sezione dx/dropdown */
+
+.sezione-dx ul li{
+    display: inline-block;
+}
+
+.sezione-dx ul li ul{
+    width: 235px;
+    right: 335px;
+    top: 83px;
+    position: absolute;   
+    display: none;
+    text-align: left;
+    background-color: white;
+    line-height: 4;
+    padding: 15px 0;
+}
+
+.sezione-dx ul li ul li{
+    display: block;
+    margin: 0;
+}
+
+.sezione-dx ul li ul li a{
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.sezione-dx ul li:hover ul{
+    display: block;
+}
+
+.sezione-dx ul li ul li:hover {
+    background-color: #ebebeb;
+    border: none;
+
+}
 
 
 /*  bottone inizia */
