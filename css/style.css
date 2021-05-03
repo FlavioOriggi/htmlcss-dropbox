@@ -741,34 +741,31 @@
 }
 
 .lista-faq{
-    margin: 20px 0;
-    position: relative;
-    display: inline-block;
+    margin: 20px 0;    
+    
 }
 
 .domanda{
     font-size: 20px;
     margin-bottom: 10px;
     padding-right: 300px;
-    display: inline-block;    
-    cursor: pointer;
-    position: relative;  
+    
 }
 
 .visualizza{    
     margin-left: 10px;
-    font-size: 20px;    
+    font-size: 20px;
+    float: right;    
 }
 
-.testo-risposta p{
+.testo-risposta {
     display: none;    
-    color: lightgray;
-    display: block;    
+    color: lightgray;     
 }
 
 
 
-.domanda:hover p{
+.lista-faq:hover .p{
     display: block;
 }
 
