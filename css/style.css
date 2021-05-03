@@ -5,6 +5,24 @@
     font-family: SharpGroteskWide,Open Sans,sans-serif;
 }
 
+/* simbolo chat */
+.simbolo-chat{       
+    bottom: 15px;
+    right: 20px;
+    z-index: 5;
+    position: fixed;
+    background-color: #0d2481;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;    
+    line-height: 53px;
+    color: white;
+    font-size: 35px;
+    padding-left: 6px;
+}
+
+
+
 /* INIZIO SEZIONE HEADER */
 
 /* struttura nav */
