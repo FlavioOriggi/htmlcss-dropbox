@@ -724,10 +724,8 @@
 /* SEZIONE FAQ */
 .section-faq{
     margin: 150px 20%;    
-    width: 60%; 
-    background-color: lightgreen;      
+    width: 60%;           
 }
-
 
 .contenitor-faq hr{
     color: grey;
@@ -741,31 +739,28 @@
 }
 
 .lista-faq{
-    margin: 20px 0;    
-    
+    margin: 20px 0;     
 }
 
 .domanda{
     font-size: 20px;
     margin-bottom: 10px;
-    padding-right: 300px;
-    
+    padding-right: 40px;
+    cursor: pointer;    
 }
 
-.visualizza{    
-    margin-left: 10px;
+.visualizza{      
     font-size: 20px;
     float: right;    
 }
 
-.testo-risposta {
+.risposta {
     display: none;    
     color: lightgray;     
 }
 
 
-
-.lista-faq:hover .p{
+.lista-faq:hover .risposta{
     display: block;
 }
 
