@@ -90,6 +90,8 @@
     padding-right: 20px; 
 }
 
+
+
 /*  bottone inizia */
 .btn-inizia{    
     float: right;    
@@ -223,8 +225,7 @@
 }
 
 /* sezione centrale/colonne */
-.colonna{
-    /* background-color: yellowgreen; */
+.colonna{   
     width: 30%;    
 }
 
@@ -578,28 +579,82 @@
     background-color: rgb(70, 18, 29);
     height: 600px;    
     width: calc(100% / 3); 
-    float: left;   
+    float: left; 
+      
 }
 
 .content-loghi{
     background-color: #a2d39b;    
     height: 300px;    
-    width: calc(100% / 2); 
+    width: 50%;
     float: left;
+    position: relative;
 }
 
+.content-loghi > .logo-customers{
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo-customers{
+    width: 150px;
+    height: 75px;
+    filter: invert(1);        
+}
+
+.logo-customers-altezza-diversa{
+    width: 150px;
+    height: 30px;
+    filter: invert(1);
+}
+
+.content-loghi > .logo-customers-altezza-diversa{
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* colonna centrale */
 #content-di-testo{
     background-color: #f5f5f5;
+    padding: 105px 50px;
+}
+
+.logo-content-di-testo span{
+    background-color: brown;
+    height: 80px;
+    width: 100px;
+}
+
+.altezza-logo-sezione-testo{
+    height: 50px;
+    
+}
+
+.linea-grigia-sotto-logo{
+    height: 30px;
+    width: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.testo-colonna-centrale{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 90px 0;
 }
 
 
-/* riquadri dei loghi */
-#designit{
+/* riquadri dei loghi colonna sx */
+.designit{
     background-color: #a2d39b;
 }
 
-#asu{
-    background-color: #1f020d;
+.asu{
+    background-color: #61082b;
 }
 
 .uf{
@@ -612,6 +667,24 @@
 
 .descrizione-customers{
     background-color: rgb(180, 246, 246);
+}
+
+/* riquadri dei loghi colonna dx */
+
+.wbr{
+    background-color: #d5001f;
+}
+
+.hearts{
+    background-color: #b4d0e7;
+}
+
+.lp{
+    background-color: #0d2481;
+}
+
+.cco{
+    background-color: #ffd830;
 }
 
 
