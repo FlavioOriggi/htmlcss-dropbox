@@ -130,6 +130,10 @@
     text-decoration: none;
 }
 
+.btn-blu-opacity:hover{
+    opacity: 0.7;
+}
+
 /* simbolo chat */
 .simbolo-chat{       
     bottom: 15px;
@@ -504,8 +508,8 @@
     margin-top: 25px;   
 }
 
-.btn-trova-partner:hover {
-    color: red;
+.btn-white-opacity:hover {
+    background-color: rgb(248, 247, 247);
 }
 
 #btn-testo-black{
@@ -590,6 +594,10 @@
 .propieta-testo-hdr-ctsmrs a{    
     font-size: 16px;
     line-height: 16px;
+}
+
+#link-testo-blu:hover { 
+    text-decoration: none; 
 }
 
 
